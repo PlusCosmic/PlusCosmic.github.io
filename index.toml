@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "bsl-shaders.pw.toml"
-hash = "8330d47de62e817dd023eb4775c7a8c36336f4fdaa63e1df051719fbd6b2aa4a"
+hash = "c0f06b46390f5efb25479e5ee6712b59d1230299bd82c85af18f6accebeff3f4"
 metafile = true
 
 [[files]]
