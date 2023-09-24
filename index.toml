@@ -1,11 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "bsl-shaders.pw.toml"
-hash = "c0f06b46390f5efb25479e5ee6712b59d1230299bd82c85af18f6accebeff3f4"
-metafile = true
-
-[[files]]
 file = "config/Advancedperipherals/general.toml"
 hash = "78bc066a3400a0676828e159da326fb5cf41869e393f935c13641ec7a078ee2f"
 

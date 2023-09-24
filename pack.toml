@@ -1,12 +1,12 @@
 name = "PlusCosmicPack"
 author = "PlusCosmic"
-version = "1.0.4"
+version = "1.0.5"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "1ed0fb323e94473b46e01151ad1b2df52e02999d804a296d9149ef1bcb5ebe3b"
+hash = "c663187f273dac3e4c83dba9ef4da02558594abd19b6f159362e248399c22a04"
 
 [versions]
 forge = "40.2.10"
