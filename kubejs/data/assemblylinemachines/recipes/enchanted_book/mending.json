@@ -1,0 +1,8 @@
+{
+	"type": "assemblylinemachines:enchantment_book",
+	"input":{
+		"item": "gobber2:dragon_star"
+	},
+	"enchantment": "minecraft:mending",
+	"cost": 10000
+}

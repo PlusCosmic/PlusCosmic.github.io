@@ -1,0 +1,8 @@
+{
+	"type": "assemblylinemachines:enchantment_book",
+	"input":{
+		"item": "oresabovediamonds:nether_amethyst_ore"
+	},
+	"enchantment": "minecraft:fortune",
+	"cost": 2
+}
