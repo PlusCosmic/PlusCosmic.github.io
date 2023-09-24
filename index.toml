@@ -4654,14 +4654,6 @@ file = "config/wormhole-common.toml"
 hash = "9ee148617eef4ccdb46b2fbb6d9ddc84877e833bde66b756be250bf4836b7676"
 
 [[files]]
-file = "config/xray-client.toml"
-hash = "cbc7a4c35a03b8c5697e3c38e9e4415a1b93172856c397d450b441969b42d341"
-
-[[files]]
-file = "config/xray/block_store.json"
-hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
-
-[[files]]
 file = "mods/advanced-chimneys.pw.toml"
 hash = "d8b817327cb0d235671c9970acebd69307c4ab8ec12f7d473f49f56374ef5731"
 metafile = true
@@ -4674,11 +4666,6 @@ metafile = true
 [[files]]
 file = "mods/advanced-shulkerboxes.pw.toml"
 hash = "626e114e02d68d71c58b65bf2190b715ad3eb741ed343a61155eda0bcaccd5a0"
-metafile = true
-
-[[files]]
-file = "mods/advanced-xray.pw.toml"
-hash = "6e4d2c5a7d88cf47e069ca597ec3d5dc13b8ca0b8f2cdd96d6dec1e7c1290ee6"
 metafile = true
 
 [[files]]
@@ -6618,8 +6605,3 @@ hash = "d8f9ad919602ab59a672e8c9efc34a2e6c402c2436471e3ce7faf4134a41c466"
 [[files]]
 file = "resourcepacks/Quark Programmer Art.zip"
 hash = "41cb720cf256a12ea247b2f38068b363aa5b1675470c4b5aa66850701a78bc4d"
-
-[[files]]
-file = "resourcepacks/xray-ultimate-1-11-compatible.pw.toml"
-hash = "0577101e16036bf6feab1c28cbe63404e45057928c8106791898df129c2220a3"
-metafile = true
