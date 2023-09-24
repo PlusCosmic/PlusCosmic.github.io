@@ -4654,6 +4654,18 @@ file = "config/wormhole-common.toml"
 hash = "9ee148617eef4ccdb46b2fbb6d9ddc84877e833bde66b756be250bf4836b7676"
 
 [[files]]
+file = "mods/3dskinlayers-forge-1.5.2-mc1.18.2.jar"
+hash = "923dafa77c5b2572c32f1babd14a3654cedd68f751640fbf69974e92e284befd"
+
+[[files]]
+file = "mods/BrassAmberBattleTowers-1.18.2-2.3.12.jar"
+hash = "078a01a68bb7a9270763fe6c909f9818ee6965be8821561a848e9ebd93a2b3ec"
+
+[[files]]
+file = "mods/Illager Plushies 1.1.5 1.18.2.jar"
+hash = "dd33ed8bfd26f613fbdc147c65ddc037b184f36072e100477cb796fc2895b5bf"
+
+[[files]]
 file = "mods/advanced-chimneys.pw.toml"
 hash = "d8b817327cb0d235671c9970acebd69307c4ab8ec12f7d473f49f56374ef5731"
 metafile = true
@@ -4886,11 +4898,6 @@ metafile = true
 [[files]]
 file = "mods/brandons-core.pw.toml"
 hash = "be82288a29465081c3e61bd83f8b1edfe8eeb08b639ebc54db0303777bdab1df"
-metafile = true
-
-[[files]]
-file = "mods/brassamberbattletowers.pw.toml"
-hash = "3c5994d11f3a485491f67fd235fddb42a2e3bbbea92a12170cc8ce7297acde4b"
 metafile = true
 
 [[files]]
@@ -5152,6 +5159,10 @@ metafile = true
 file = "mods/delogger.pw.toml"
 hash = "4d3a9d7e0970fa004dc92f36f911af5d6060d0629105fe16eee7aa3961438c8c"
 metafile = true
+
+[[files]]
+file = "mods/desktop.ini"
+hash = "a6f27e0139f8d7003df7f80f5fee45cd3d4c33086e48793efef857f24e4e3215"
 
 [[files]]
 file = "mods/deuf-duplicate-entity-uuid-fix.pw.toml"
@@ -5449,14 +5460,13 @@ hash = "e775a6a83f707b102223f8281e3df4cb104950824605028f3aeb099a43cba12d"
 metafile = true
 
 [[files]]
-file = "mods/gobber-delight-a-farmers-delight-add-on.pw.toml"
-hash = "d23aeb8e4bf44339a777901563d94933f7f1b952e3589b5658ec594f177ed8fa"
-metafile = true
-
-[[files]]
 file = "mods/gobber.pw.toml"
 hash = "ee33ff06e8beb4a67d088380d36f38bf0af09d35f99496c8c4123b29d70c8380"
 metafile = true
+
+[[files]]
+file = "mods/gobber_delight_2.0.0_forge_1.18.2.jar"
+hash = "38050a868b9c1f8643cdf68806113428322a36c701d7dadb6aaf5eace972f4bf"
 
 [[files]]
 file = "mods/goblins-dungeons.pw.toml"
@@ -5474,9 +5484,8 @@ hash = "c685d5c9a35c111c0661fc2fa0ccaf0f9c910c3fdfe02d1f1095cabd12d1308a"
 metafile = true
 
 [[files]]
-file = "mods/hexerei.pw.toml"
-hash = "fcb294ed1867ab61af110c5ff455f4b5ec8feefc41bc94b4ddad2211277479e8"
-metafile = true
+file = "mods/hexerei-0.2.2.jar"
+hash = "e05e05d76b720e15a62425fe74b32552753ce973423d1c1cdb9fed3b2ee642c8"
 
 [[files]]
 file = "mods/hostile-neural-networks.pw.toml"
@@ -5506,11 +5515,6 @@ metafile = true
 [[files]]
 file = "mods/idas.pw.toml"
 hash = "e110bf6e27ba70d38c051d912c64ce67b31f303b739ba89f92d98fd913d46b92"
-metafile = true
-
-[[files]]
-file = "mods/illager-plushies.pw.toml"
-hash = "e85f2c5776e8d8e9a6fa5dcdca1a0187e636a2ff93c4b6f099c37fb27d6bd1a6"
 metafile = true
 
 [[files]]
@@ -6261,11 +6265,6 @@ metafile = true
 [[files]]
 file = "mods/sit.pw.toml"
 hash = "49148fc0eda2e7bbd95f0311bdef62604bdcaa4e8e48975350a3523a80b2be78"
-metafile = true
-
-[[files]]
-file = "mods/skin-layers-3d.pw.toml"
-hash = "f94010836c666619582c0e21b2bd08448ba61aa99060a8fbce504c7cbd815b24"
 metafile = true
 
 [[files]]
