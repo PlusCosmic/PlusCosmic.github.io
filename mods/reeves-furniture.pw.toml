@@ -1,0 +1,13 @@
+name = "Reeves's Furniture [FABRIC]"
+filename = "reeves-furniture-1.18.2-0.8r.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a2859fde763070ab9040968d774337fd4a28666f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3909494
+project-id = 399025

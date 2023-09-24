@@ -1,0 +1,13 @@
+name = "Weapon Throw"
+filename = "WeaponThrow-1.18.2-5.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "830919478ba9fc7ef0be028cb09d1e87cea2a018"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3783769
+project-id = 408332

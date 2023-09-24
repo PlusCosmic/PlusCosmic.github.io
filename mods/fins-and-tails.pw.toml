@@ -1,0 +1,13 @@
+name = "Fins and Tails"
+filename = "finsandtails-1.18.2-1.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "558b1d2a725e585fa3518c1e08afa7d017b1688b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4427852
+project-id = 427471

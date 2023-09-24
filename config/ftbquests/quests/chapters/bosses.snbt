@@ -1,0 +1,387 @@
+{
+	id: "4D20FF19192106E7"
+	group: "30AC1CE19F5532E7"
+	order_index: 2
+	filename: "bosses"
+	title: "Bosses"
+	icon: "minecraft:dragon_head"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.0d
+			y: -2.5d
+			subtitle: "Stalwart Dungeon - Kill End Boss"
+			dependencies: ["03965AA0FD6D4738"]
+			id: "026D6AFB7A39F5E3"
+			tasks: [
+				{
+					id: "31E3F4DECEEC6D51"
+					type: "item"
+					item: "stalwart_dungeons:void_crystal"
+				}
+				{
+					id: "07B1FF60BF835AB3"
+					type: "kill"
+					title: "Kill Shelterer"
+					icon: "minecraft:creeper_spawn_egg"
+					entity: "stalwart_dungeons:shelterer"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "19BC38B8AE0C772E"
+					type: "pmmo:levelreward"
+					title: "3 Combat Levels"
+					skill: "combat"
+					amount: 3.0d
+				}
+				{
+					id: "75C0C161A54072DC"
+					type: "item"
+					item: "cyclic:heart"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -1.5d
+			subtitle: "Stalwart Dungeons - Kill Nether Boss"
+			dependencies: ["2EBC224388B2F394"]
+			id: "03965AA0FD6D4738"
+			tasks: [
+				{
+					id: "4156F50696ABD4C4"
+					type: "item"
+					item: "stalwart_dungeons:awful_crystal"
+				}
+				{
+					id: "58428B4240BE657C"
+					type: "kill"
+					title: "Kill Awful Ghast"
+					icon: {
+						id: "reliquary:mob_charm"
+						Count: 1b
+						tag: {
+							Damage: 0
+							entity: "stalwart_dungeons:awful_ghast"
+						}
+					}
+					entity: "stalwart_dungeons:awful_ghast"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "1CF2756E45418A74"
+					type: "item"
+					auto: "invisible"
+					item: "stalwart_dungeons:raw_tungsten"
+					count: 3
+				}
+				{
+					id: "2A2E06C4B370541E"
+					type: "item"
+					item: "chanceglobe:chance_globe"
+				}
+			]
+		}
+		{
+			title: "Ancient Fire"
+			x: -2.0d
+			y: -0.5d
+			subtitle: "Stalwart Dungeons - Kill Nether Mini Boss"
+			description: ["But.... how do you get there?"]
+			id: "2EBC224388B2F394"
+			tasks: [
+				{
+					id: "535470CFB95E0308"
+					type: "item"
+					item: {
+						id: "stalwart_dungeons:ancient_fire"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1BDF4AB914163D09"
+					type: "kill"
+					title: "Kill Nether Keeper"
+					icon: "minecraft:endermite_spawn_egg"
+					disable_toast: true
+					entity: "stalwart_dungeons:nether_keeper"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "6B9C69507E3EA31A"
+					type: "item"
+					item: "stalwart_dungeons:blaze_armor_scrap"
+					count: 2
+				}
+				{
+					id: "1D3C67D6BFAF3066"
+					type: "random"
+					table_id: 5396437845961881468L
+				}
+			]
+		}
+		{
+			title: "Doom's Mother Demon"
+			x: 1.5d
+			y: -1.5d
+			subtitle: "One of the hardest DOOM Bosses in Nether"
+			description: ["Find the Mother Demon Structure to have it spawn"]
+			id: "51CEABBA833BFA84"
+			tasks: [{
+				id: "1E73105D3D3C3A73"
+				type: "kill"
+				title: "Kill The Mother Demon"
+				icon: {
+					id: "doom:darklord_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "doom:motherdemon"
+				value: 1L
+			}]
+			rewards: [{
+				id: "109FDAAED3905B01"
+				type: "random"
+				table_id: 5713291103209766976L
+			}]
+		}
+		{
+			title: "Doom's Icon of Sin"
+			x: 2.5d
+			y: -1.5d
+			subtitle: "Find structure in The Nether to summon Icon of Sin"
+			id: "3E2AE64ED64F9787"
+			tasks: [{
+				id: "620B99E6376A4854"
+				type: "kill"
+				icon: "kubejs:star_of_icon"
+				entity: "doom:iconofsin"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "3055D173C53E9485"
+					type: "random"
+					table_id: 5713291103209766976L
+				}
+				{
+					id: "022739C91AC4C371"
+					type: "random"
+					table_id: 2573245064785096990L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -2.5d
+			subtitle: "Discover its weakness or you'll become its prey"
+			description: ["It drops a powerful weapon"]
+			id: "79E96A9309E7065A"
+			tasks: [{
+				id: "39CA8811A5D38101"
+				type: "kill"
+				title: "Kill the Ferrous Wroughnaut"
+				icon: "mowziesmobs:wroughtnaut_spawn_egg"
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "7609620B3BAD0482"
+					type: "item"
+					item: "alexsdelight:bison_burger"
+				}
+				{
+					id: "51840D1E942D0543"
+					type: "item"
+					item: "cyclic:heart"
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -1.5d
+			subtitle: "This boss and its minions will give you a tough time and a nice item"
+			description: [
+				"Barako is the chief of the Barakoa tribe, residing in a stationary seat upon a throne in Barakoa villages. He draws his power from the sun, calling forth sunstrikes, solar flares, and massive solar beams. He can also create Barakoa followers - including healers called Barakoaya - from masks to defend him during combat. As such, his masked children revere him as a god. Unequipped travelers should keep their distance from his villages, lest they be smitten by his heliomancy."
+				""
+				"Those strong enough to face and defeat him, however, are rewarded with his mask: the Sol Visage. This mask allows its wearers to breathe life into masks to create Barakoa followers. Unfortunately, the mask does not bestow heliomancy upon its bearer; this power is innately carried by Barako, and thus dies with him. Perhaps there is another way...?"
+			]
+			id: "0BCBEB67994D764C"
+			tasks: [{
+				id: "43A3D2A0338D2E11"
+				type: "kill"
+				icon: "mowziesmobs:barako_spawn_egg"
+				entity: "mowziesmobs:barako"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "5F46A0199B46065D"
+					type: "item"
+					item: "cyclic:heart"
+				}
+				{
+					id: "0C8D3A2FA6F511A7"
+					type: "random"
+					table_id: 5396437845961881468L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -0.5d
+			subtitle: "Another hard boss, can you slay it and receive the reward it will drop?"
+			description: ["Frostmaws are dangerous beasts found rarely in snowy areas. Their massive size, impressive speed, and powerful ice breath make them near-impossible opponents. If, on your travels, you encounter one sleeping in your path, it's likely best to take a different route and let it lay. The beast guards a precious ice crystal that can unleash pure winter energy when wielded."]
+			id: "6C1696D419405443"
+			tasks: [{
+				id: "0CDAE63778070FA8"
+				type: "kill"
+				title: "Kill the Frostmaw"
+				icon: "mowziesmobs:frostmaw_spawn_egg"
+				entity: "mowziesmobs:frostmaw"
+				value: 1L
+			}]
+			rewards: [{
+				id: "4EC0AFC08D764C3B"
+				type: "choice"
+				table_id: 5713291103209766976L
+			}]
+		}
+		{
+			x: -8.0d
+			y: 0.0d
+			dependencies: ["084DD87B99F1540C"]
+			size: 0.75d
+			id: "35B0691842F007E6"
+			tasks: [
+				{
+					id: "03B2ED2DAB848E0A"
+					type: "item"
+					item: {
+						id: "cataclysm:ignitium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "00A28EB60B251C60"
+					type: "item"
+					item: {
+						id: "cataclysm:ignitium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "24763566FAB03341"
+					type: "item"
+					item: {
+						id: "cataclysm:ignitium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "17EB6F6EAF8E3034"
+					type: "item"
+					item: {
+						id: "cataclysm:ignitium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "23971089CE083BBC"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5713291103209766976L
+			}]
+		}
+		{
+			x: -7.0d
+			y: 0.5d
+			subtitle: "Can you best Ignitium?"
+			id: "084DD87B99F1540C"
+			tasks: [{
+				id: "02C744CD6E3ADE3A"
+				type: "item"
+				item: "cataclysm:ignitium_ingot"
+			}]
+			rewards: [{
+				id: "437E390A3D02B07D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2573245064785096990L
+			}]
+		}
+		{
+			x: -8.25d
+			y: 0.75d
+			dependencies: ["084DD87B99F1540C"]
+			size: 0.75d
+			id: "7926AFADA2D216C9"
+			tasks: [{
+				id: "64528DB95C1DC07A"
+				type: "item"
+				item: "cataclysm:the_incinerator"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -0.5d
+			subtitle: "Defeat the Ender Golem"
+			description: [
+				"Right clicking this item casts a damaging spell to mobs"
+				""
+				"Dropped by Ender Golem"
+			]
+			id: "525A94B4BBB6C73C"
+			tasks: [{
+				id: "1B51CD093B4F834A"
+				type: "item"
+				item: "cataclysm:void_core"
+			}]
+			rewards: [{
+				id: "3CE877A14F3B01A7"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 2573245064785096990L
+			}]
+		}
+		{
+			x: -7.0d
+			y: -1.5d
+			subtitle: "Defeat Ender Guardian"
+			description: ["This weapon will pull entities towards you. Dropped by Ender Guardian"]
+			id: "0BF9D17AAC1FADB6"
+			tasks: [{
+				id: "1805C7EFB4E27D7F"
+				type: "item"
+				item: "cataclysm:gauntlet_of_guard"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

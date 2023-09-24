@@ -1,0 +1,13 @@
+name = "Futurepack Mod - Now with flyable Spaceships!"
+filename = "Futurepack-1.18.2-33.0.7544.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "54c30110f83fe77ba54c2dceff36db3073fd6e9b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4555761
+project-id = 237333

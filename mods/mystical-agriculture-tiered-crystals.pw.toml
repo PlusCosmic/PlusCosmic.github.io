@@ -1,0 +1,13 @@
+name = "Mystical Agriculture Tiered Crystals"
+filename = "matc-1.2.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "031d42b61c4497ef0d1ec6a993a59480d90d8e4c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4287907
+project-id = 299045

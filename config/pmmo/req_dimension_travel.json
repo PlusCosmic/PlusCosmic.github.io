@@ -1,0 +1,10 @@
+{
+	"javd:void":
+	{
+		"building": 30
+	},
+	"jamd:mining":
+	{
+		"mining": 20
+	}
+}

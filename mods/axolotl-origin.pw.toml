@@ -1,0 +1,13 @@
+name = "Axolotl Origin"
+filename = "Axolotl Origin.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "97f1c83f579f3e757ee0997b59186cedaf8abaf9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3848654
+project-id = 637222

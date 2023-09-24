@@ -1,0 +1,13 @@
+name = "Better Crates"
+filename = "BetterCrates-1.18.2-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "80cbd44a288d1b5cf9448decb0530f6ea38d8711"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3721735
+project-id = 298223

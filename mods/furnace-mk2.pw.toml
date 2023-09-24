@@ -1,0 +1,13 @@
+name = "Furnace Mk2 [Forge/Fabric]"
+filename = "FurnaceMk2-forge-1.18.2-0.1.13.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1d68be053b785727a5a8b7fb7757ffd9e3b7735e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3770396
+project-id = 485243

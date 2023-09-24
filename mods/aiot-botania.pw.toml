@@ -1,0 +1,13 @@
+name = "AIOT Botania"
+filename = "AIOTBotania-1.18.2-2.1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "060d617192b983014da1e182514ae12bfc63335c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4215351
+project-id = 294815
