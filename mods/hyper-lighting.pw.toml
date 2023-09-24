@@ -1,0 +1,13 @@
+name = "Hyper Lighting [Forge]"
+filename = "HyperLighting-1.18.2-1.2.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2c57b2fdb004e27d8955995f6efd51352f4aeab2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3787308
+project-id = 375922

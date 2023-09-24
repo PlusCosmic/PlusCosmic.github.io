@@ -1,0 +1,13 @@
+name = "EnergeticSheep"
+filename = "EnergeticSheep-1.18.2-1.1.8.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c077dd090213f95c99c7245ccc7a6a43f6955a99"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3768470
+project-id = 280602

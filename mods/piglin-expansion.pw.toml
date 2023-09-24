@@ -1,0 +1,13 @@
+name = "Piglin Expansion"
+filename = "Piglin Expansion 1.2.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e8b5b78dd82746e448404910119fdf54fff9abe4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3948105
+project-id = 500074

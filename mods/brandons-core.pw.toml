@@ -1,0 +1,13 @@
+name = "Brandon's Core"
+filename = "BrandonsCore-1.18.2-3.1.9.280-universal.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "83de80e63f3245ea53ef8d4fe092546c1adbd888"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4426917
+project-id = 231382

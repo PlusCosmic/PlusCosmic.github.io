@@ -1,0 +1,13 @@
+name = "YDM's WeirdMobs"
+filename = "weirdmobs-1-18-2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "df284b363a46cc18bd16ef9000b425f35ab5254f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3670042
+project-id = 532382

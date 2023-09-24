@@ -1,0 +1,13 @@
+name = "Draconic Evolution"
+filename = "Draconic-Evolution-1.18.2-3.0.29.524-universal.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ed234a736820917a51c921cbdd721f0c88ad0386"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4418000
+project-id = 223565

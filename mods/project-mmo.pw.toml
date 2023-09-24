@@ -1,0 +1,13 @@
+name = "Project MMO"
+filename = "Project_MMO-1.18.2-3.69.11.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "20f0b0df2da1bcc31a6875be28b8d34e5db2a6b5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3809102
+project-id = 353935

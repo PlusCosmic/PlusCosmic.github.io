@@ -1,0 +1,13 @@
+name = "Dragon Mounts: Legacy"
+filename = "dragonmounts-1.18.2-1.1.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8dee49887f39dec784c379b06b7610d907488e2a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4603885
+project-id = 375088

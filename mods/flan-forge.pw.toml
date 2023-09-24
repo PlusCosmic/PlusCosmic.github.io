@@ -1,0 +1,13 @@
+name = "Flan (Forge)"
+filename = "flan-1.18.2-1.8.4-forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "dc7ce694907c8a7969093a1bdcb952f3092aa1d2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4432454
+project-id = 493246

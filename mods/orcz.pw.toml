@@ -1,0 +1,13 @@
+name = "Vanilla Expanded - Orcz"
+filename = "Orcz_0.83_1.18.2 [AI FIXES].jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "db61349ae1b5644882e3c642fe7a5478e0a2e5db"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4026348
+project-id = 581652
